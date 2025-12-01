@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(77, 77, 255), rgb(149, 222, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff57;
+    border-radius: 2%;
+    border: solid rgba(255, 255, 255, 0.205) 5px;
+    padding: 10px 30px 20px 30px;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profilePicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profileName {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 0.5;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkBox {
+    width: 400px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 40px;
+    background-color: rgb(135, 135, 255);
+    border: solid black 3px;
+    -webkit-box-shadow: 6px 4px 0px 1px #000000; 
+    box-shadow: 6px 4px 0px 1px #000000;
+
+}
+
+.linkBox:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.linkBox:active {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0px 0px black;
+    background-color: rgb(146, 194, 236);
+}
+
+.instagram {
+    background-image: url(../assets/instagram.svg);
+}
+
+.github {
+    background-image: url(../assets/github.svg);
+}
+
+.linkedin {
+    background-image: url(../assets/linkedim.svg);
+}
+
+.email {
+    background-image: url(../assets/email.svg);
+}
+
+.icon {
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+}
