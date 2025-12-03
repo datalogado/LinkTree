@@ -9,7 +9,8 @@ body {
     text-align: center;
     font-family: "VT323", monospace;
     font-size: 25px;
-    padding-top: 20px;
+    padding-top: 30px;
+    overflow: hidden;
 }
 
 .container {
